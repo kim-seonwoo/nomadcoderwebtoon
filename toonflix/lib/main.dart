@@ -1,15 +1,6 @@
 import 'package:flutter/material.dart';
 
-class Player {
-  String? name;
-  // name 파라미터가 있어도 되고 없어도됨을 의미: optional
-
-  Player({required this.name});
-  // named parameter로 설정
-}
-
 void main() {
-  var nico = Player(name: 'nico');
   runApp(App());
 }
 
